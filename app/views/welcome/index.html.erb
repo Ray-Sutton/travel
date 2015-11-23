@@ -9,8 +9,6 @@
 	  <% end %>
 	</ul>
 </p>
-<ul>
-	<% @pictures.each do |picture| %>
-	<li><%= image_tag picture %></li>
+<% @pictures.each do |picture| %>
+<%= image_tag picture, class: "img-responsive" %>
 	<% end %>
-</ul>
