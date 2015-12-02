@@ -3,6 +3,10 @@ class WelcomeController < ApplicationController
   	@homeland = 'America'
   	@countries = ['Germany', 'England', 'Canada', 'Mexico']
   	@pictures = ['island.jpg', 'maldivesatnight.jpg', 'maldivessky.jpg', 'maldiveshut.jpg']
+    @united_states = {"capital_city" => "Washington, DC", 
+                     "favorite_city" => "Asheville, NC", 
+                     "favorite_state" => "Oregon", 
+                     "flag_colors" => ["red", "white", "blue"]}
   end
 
 
